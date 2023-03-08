@@ -1,0 +1,17 @@
+psql -U postgres : connect to database 
+\l : liste of database 
+CREATE DATABASE perntodo ; 
+\c perntodo : to acces this databse 
+\dt : liste of tables 
+CREATE TABLE todo(
+todo_id SERIAL PRIMARY KEY ,
+description VARCHAR (255)
+); create table  
+
+
+
+
+
+
+
+
